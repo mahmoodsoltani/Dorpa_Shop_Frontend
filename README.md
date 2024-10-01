@@ -1,7 +1,19 @@
+# <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React Logo" width="100"/> Frontend E-Commerce Project
+
+
+## Technologies Used:
+
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
+![Redux](https://img.shields.io/badge/-Redux-764ABC?style=flat-square&logo=redux&logoColor=white)
+![React Router](https://img.shields.io/badge/-React%20Router-CA4245?style=flat-square&logo=react-router&logoColor=white)
+![Jest](https://img.shields.io/badge/-Jest-C21325?style=flat-square&logo=jest&logoColor=white)
+![NPM](https://img.shields.io/badge/-NPM-CB3837?style=flat-square&logo=npm&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
 # Dorpa: the online bike shop
 
-![React](https://img.shields.io/badge/React-blue) ![Redux toolkit](https://img.shields.io/badge/RTK-purple) ![TypeScript](https://img.shields.io/badge/TypeScript-green)
-
+This repository contains the frontend project developed as part of [Integrify's Fullstack Developer](https://www.integrify.io/program/finland/full-stack) training program. The goal of this project is to create an intuitive, user-friendly e-commerce website where customers can browse, select, and purchase products with ease. Whether it’s bike or other products, the platform is designed to accommodate various shopping preferences, offering a seamless user experience. Users can place orders, write and update reviews, sort products based on different criteria, and add items to their wishlist. Admins have full control over managing orders, users, products, and more, ensuring efficient e-commerce operations. You can explore the live version of our frontend e-commerce project at [Dorpa_Shop](https://dorpa.netlify.app/).
 > [!NOTE]  
 > **You can shop [Here](https://dorpa.netlify.app)!**
 
