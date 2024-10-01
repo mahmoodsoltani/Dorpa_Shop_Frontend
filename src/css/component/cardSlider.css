@@ -1,0 +1,107 @@
+.card-slider {
+  width: 100%;
+  padding: 20px;
+  position: relative;
+}
+
+.card-slider h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 5px;
+  padding: 10px;
+  width: calc(100% - 60px); /* Adjust width considering arrow buttons */
+}
+
+.arrow {
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.arrow.left {
+  left: 10px;
+}
+
+.arrow.right {
+  right: 10px;
+}
+/* cardSlider.css */
+.card-slider-container {
+  position: relative;
+  border: 2px solid #b4b3b3;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+.image-slider-container {
+  position: relative;
+  border: 2px solid #ddd;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+.image {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.slider-title {
+  position: absolute;
+  top: -15px;
+  left: 15px;
+  background-color: #fff;
+  padding: 5px 10px;
+  font-size: 18px;
+  border: 2px solid #b4b3b3;
+
+  font-weight: bold;
+  color: #333;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-wrapper {
+}
+
+.carousel-wrapper .react-multi-carousel-list {
+  border-radius: 15px;
+  overflow: hidden;
+}
+.react-multi-carousel-item > div {
+  max-width: px; /* Adjust based on your card size */
+  margin: 0px; /* Space between cards */
+}
+.react-multi-carousel-item {
+  display: flex;
+  margin: 5px;
+  justify-content: center; /* Center items within the carousel */
+}
+.react-multi-carousel-track {
+  display: flex;
+  float: center;
+  transition: transform 0.5s ease; /* Smooth transitions */
+}

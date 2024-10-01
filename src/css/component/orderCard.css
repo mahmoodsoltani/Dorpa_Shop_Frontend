@@ -1,0 +1,84 @@
+/* Container for the entire order card */
+.order-card {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin: 16px 0;
+  padding: 16px;
+  background-color: #f3f3f3;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Left section - for the product slider */
+.order-card-left {
+  flex: 2;
+  padding-right: 16px;
+  max-width: 800px;
+}
+
+/* Right section - for the order details */
+.order-card-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+
+/* Individual order item inside the slider */
+.order-item {
+  text-align: center;
+}
+
+.order-item img {
+  max-width: 150px;
+  max-height: 150px;
+  margin-bottom: 8px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.order-item p {
+  margin: 4px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Slider custom dots */
+.slick-dots li button:before {
+  font-size: 12px;
+  color: #888;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #333;
+}
+
+/* Right section typography */
+.order-card-right p {
+  font-size: 14px;
+  color: #555;
+  margin: 8px 0;
+}
+
+.order-card-right strong {
+  color: #333;
+  font-weight: 600;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .order-card {
+    flex-direction: column;
+  }
+
+  .order-card-left {
+    padding-right: 0;
+    margin-bottom: 16px;
+  }
+
+  .order-item img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+}

@@ -1,0 +1,61 @@
+/* Homepage.css */
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  min-height: 600px;
+  justify-content: center; /* Center content horizontally */
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  background-image: url("https://trailhub.co.nz/assets/Uploads/Trail-Hub-Gallery/Cyclorama-e-bike-event-Arrowtown-Queenstown-11__FitWzEyMDAsMTIwMF0.jpg"); /* Replace with actual image URL */
+  background-size: cover; /* Cover the entire section */
+  background-position: center; /* Center the background image */
+  height: 120 vh;
+  color: white; /* Ensure text is readable on dark or vibrant images */
+  border-radius: 20px;
+}
+
+.hero-text {
+  text-align: center;
+  max-width: 100%;
+}
+
+.hero-text h1 {
+  font-weight: bold;
+  color: #ff4006;
+  text-align: center;
+}
+
+.hero-text p {
+  margin-top: 30%;
+  font-weight: bold;
+  font-size: large;
+  color: #ffffff;
+}
+.main-container {
+  min-height: 750px;
+}
+.buy-now {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin: auto;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.slider-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  min-height: 80vh;
+}

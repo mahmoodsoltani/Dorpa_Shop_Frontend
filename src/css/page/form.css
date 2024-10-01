@@ -1,0 +1,44 @@
+.form-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-box {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 800px;
+  text-align: left;
+}
+.error-message {
+  color: red;
+  margin-bottom: 1rem;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.form-row label {
+  flex: 0 0 150px; /* Adjust this value to change label width */
+  margin-right: 1rem;
+  font-weight: bold;
+}
+
+.form-row .MuiTextField-root,
+.form-row .MuiSelect-root {
+  flex: 1;
+}
+
+.file-input {
+  margin-top: 0.5rem;
+}
+
+.submit-btn {
+  margin-top: 1rem;
+}

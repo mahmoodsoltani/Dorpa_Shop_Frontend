@@ -1,0 +1,92 @@
+/* about.css */
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  padding: 40px 0;
+}
+
+h1, h2, h3 {
+  color: #222;
+}
+
+#intro {
+  background-color: #f4f4f4;
+  padding: 40px 0;
+  text-align: center;
+}
+
+#intro h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+#intro p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+#history, #mission, #contact {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+#history h2, #mission h2, #contact h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+#history p, #mission p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+#team {
+  background-color: #f9f9f9;
+}
+
+#team .team-member {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#team .team-member img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+#team .team-member h3 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+#team .team-member p {
+  margin: 5px 0;
+}
+
+#contact p {
+  font-size: 1.1em;
+}
+
+#contact a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}

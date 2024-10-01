@@ -1,0 +1,152 @@
+body {
+  background-color: #f0f0f0;
+  font-family: Raleway, sans-serif;
+}
+
+.product-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  max-width: 350px;
+  height: 400px;
+  margin-top: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product-card:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.product-image-container {
+  position: relative;
+  height: 220px;
+  display: flex;
+  cursor: pointer;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.product-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 12px;
+}
+
+.product-info {
+  background-color: #f0f0f0;
+  padding: 16px;
+  border-radius: 0 0 16px 16px;
+}
+
+.product-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.product-description {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.product-pricing {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.price {
+  text-decoration: line-through;
+}
+
+.discount-price {
+  color: #ff4d4f;
+  margin-left: 8px;
+}
+
+.discount-percent {
+  background: #d53232;
+  padding: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  color: #f0f0f0;
+  float: right;
+}
+
+/* New row with rating and icons */
+.product-rating-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.product-rating {
+  font-size: 16px;
+  color: #ffc107;
+}
+
+/* Favourite and Add-to-Cart icons styling */
+.favourite-heart {
+  background-color: transparent;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.favourite-heart:hover {
+  transform: scale(1.2);
+}
+
+/* Add-to-Cart icon styling */
+.add-to-cart {
+  position: absolute; /* Position this element absolutely within the container */
+  top: 10px; /* Adjust distance from the top */
+  right: 10px; /* Adjust distance from the right */
+  padding: 10px;
+  border-radius: 50%; /* Make it circular */
+  color: white; /* Icon color */
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+.discount {
+  position: absolute;
+  top: 1px;
+  left: -40px;
+  background: #ff0000; /* Red background for the ribbon */
+  color: #fff; /* White text */
+  padding: 5px 10px;
+  border-radius: 5px;
+  transform: rotate(-45deg);
+  width: 140px; /* Adjust as needed */
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.add-to-cart button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+}
+
+.add-to-cart:hover {
+  background-color: #717471;
+}
