@@ -22,6 +22,30 @@ This repository contains the frontend project developed as part of [Integrify's 
 > **You can find the API's documentation [Here](https://dorpa.azurewebsites.net/swagger/index.html)**
 
 -----------------------------------------------------------------------------------------------------------------
+**Install:**
+
+Clone the repository:
+
+```bash
+git clone https://github.com/mahmoodsoltani/Dorpa_Shop_Frontend.git
+```
+Change to the project directory:
+```bash
+cd Dorpa_Shop_Frontend
+```
+Install the dependencies:
+```bash
+npm install
+```
+Run the project
+```bash
+npm start
+```
+Test the prject functionality 
+```bash
+npm test
+```
+-----------------------------------------------------------------------------------------------------------------
 **Project feature:**
 
 **Redux for State Management:** Handles all CRUD operations and data flow efficiently.
@@ -67,6 +91,13 @@ This repository contains the frontend project developed as part of [Integrify's 
 **Sample data flow for the login process:**
 <p align="center">
 <img src='https://github.com/user-attachments/assets/b8959ef7-b6e6-47a6-89a3-fef68decc5c6' width='80%' align='center'/>
+</p>
+
+-----------------------------------------------------------------------------------------------------------------
+
+**App Screenshots:**
+<p align="center">
+<img src='https://github.com/user-attachments/assets/5eae5f6e-b1af-4049-bfee-416c89484974' width='80%' align='center'/>
 </p>
 
 
